@@ -1,0 +1,11 @@
+version: "3"
+services: 
+  mariadb:
+    image: 3dsinteractive/mariadb:10.2
+    environment:
+        - ALLOW_EMPTY_PASSWORD=yes
+        - MARIADB_USER=my_user
+        - MARIADB_PASSWORD=my_password
+        - MARIADB_DATABASE=my_database
+    ports:
+        - 3306:3306

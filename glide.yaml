@@ -1,2 +1,6 @@
 package: github.org/pong3ds/play-with-gorm
-import: []
+import:
+- package: github.com/3dsinteractive/gorm
+  version: ^1.9.1
+- package: github.com/3dsinteractive/mysql
+  version: ^1.4.0
